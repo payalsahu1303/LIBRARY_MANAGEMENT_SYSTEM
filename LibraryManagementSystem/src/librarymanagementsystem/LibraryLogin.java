@@ -15,8 +15,8 @@ import java.util.Map;
 public class LibraryLogin {
     // JDBC connection variables
     private static final String DB_URL = "jdbc:mysql://localhost:3306/library";
-    private static final String USER = "root"; // Update with your MySQL username
-    private static final String PASSWORD = "Payal@123"; // Update with your MySQL password
+    private static final String USER = "username"; // Update with your MySQL username
+    private static final String PASSWORD = "password"; // Update with your MySQL password
 
     static Map<String, String> users = new HashMap<>(); // Store user credentials
     static Map<String, Book> books = new HashMap<>(); // Store books
