@@ -17,7 +17,7 @@ public class OnlineReservationSystem {
 
     public static void setupDatabase() {
         try {
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/online_reservation_system", "root", "Payal@123");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/online_reservation_system", "username", "password");
 
             String userQuery = "SELECT login_id, password FROM users";
             Statement stmt = connection.createStatement();
