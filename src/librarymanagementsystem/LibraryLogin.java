@@ -10,8 +10,8 @@ import java.util.Map;
 
 public class LibraryLogin {
     private static final String DB_URL = "jdbc:mysql://localhost:3306/library";
-    private static final String USER = "root"; 
-    private static final String PASSWORD = "Payal@123"; 
+    private static final String USER = username; 
+    private static final String PASSWORD = password; 
 
     static Map<String, String> users = new HashMap<>(); 
     static Map<String, Book> books = new HashMap<>(); 
