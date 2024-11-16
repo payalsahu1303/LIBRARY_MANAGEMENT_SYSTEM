@@ -20,7 +20,7 @@ The Library Management System is a Java-based application designed to streamline
 ## Installation Instructions  
 1. Clone the repository:  
    ```bash  
-   git clone https://github.com/payalsahu1303/Library-Management-System.git  
+   git clone https://github.com/payalsahu1303/LIBRARY_MANAGEMENT_SYSTEM.git  
 2. Set up the MySQL database and configure the connection in the project.
 3. Compile the Java files using your preferred IDE.
 4. Run the application.
