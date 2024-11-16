@@ -1,38 +1,35 @@
-# OIBSIP Internship Projects
+# Library Management System  
 
-Welcome to my **Oasis Infobyte** internship projects repository. This repository showcases the Java development projects I worked on during my internship, including an **Online Reservation System** and a **Digital Library Management** system.
+## Project Overview  
+The Library Management System is a Java-based application designed to streamline library operations, including book management, user management, book issuance, and returns. The system features separate modules for admin and users, ensuring efficient organization and tracking of library resources.  
 
-## Project Overview
+## Features  
+- Admin and user modules for role-based functionality  
+- User registration and login system  
+- Book addition, deletion, and updating by admin  
+- Book issuance and return functionality with PNR tracking  
+- View books in a table format for easy access  
+- Blue-themed user interface for a modern and visually appealing experience  
 
-During my internship at Oasis Infobyte, I focused on developing Java-based applications that solve real-world problems. The two key projects showcased in this repository are:
+## Technologies Used  
+- Java  
+- MySQL  
+- JDBC (Java Database Connectivity)  
+- Swing (for GUI)  
 
-1. **Online Reservation System**: A user-friendly application for booking and managing reservations.
-2. **Digital Library Management**: A system for managing library resources, allowing easy access to books, journals, and other materials.
+## Installation Instructions  
+1. Clone the repository:  
+   ```bash  
+   git clone https://github.com/payalsahu1303/Library-Management-System.git  
+2. Set up the MySQL database and configure the connection in the project.
+3. Compile the Java files using your preferred IDE.
+4. Run the application.
 
-## Technologies Used
-
-- Java
-- JDBC (Java Database Connectivity)
-- MySQL
-- Object-Oriented Programming (OOP) Concepts
-- User Interface (UI) Design (Swing/JavaFX)
-
-## Projects
-
-### Online Reservation System
-
-The **Online Reservation System** allows users to make reservations for services, view existing bookings, and manage their reservations. Key features include:
-
-- User registration and login
-- Reservation creation, modification, and cancellation
-- Admin panel for managing reservations and users
-- Database integration using MySQL
-
-### Digital Library Management
-
-The **Digital Library Management** system helps libraries to manage their book collections, issue books, and track returns. It offers the following features:
-
-- User registration and login
-- Book search, issue, and return management
-- Admin panel for adding, updating, or deleting books
-- Database integration using MySQL
+## Usage
+1. Start the application.
+2. Admin: Log in to manage books and users.
+3. User: Register a new account or log in to an existing account.
+4. Navigate through the interface to:
+   - View available books
+   - Issue or return books
+   - Manage library resources efficiently
